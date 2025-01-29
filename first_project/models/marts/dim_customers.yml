@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customers"
+    columns:
+      - name: continent
+        description: "The continent name"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'SOUTH AMERICA', 'EUROPE', 'NORTH AMERICA', 'UNKNOWN' ]

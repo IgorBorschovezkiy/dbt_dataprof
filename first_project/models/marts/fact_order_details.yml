@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: fact_order_details
+    description: "Order Details"
+    columns:
+      - name: surrogate_key
+        description: "The primary key for this table"
+        data_tests:
+          - unique
