@@ -1,0 +1,4 @@
+version: 2
+data_tests:
+  - name: assert_positive_orders_value
+    description: Проверяет, что общая сумма заказа положительная.
